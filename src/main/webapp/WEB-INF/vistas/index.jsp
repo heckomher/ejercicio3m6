@@ -1,6 +1,7 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <html lang="es">
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Capacitaciones en Prevención de Riesgos</title>
 
@@ -28,7 +29,8 @@
 
 <body>
 
-<!-- include file="layout/header.jsp" %> -->
+<%@ include file="layout/header.jsp" %>
+
 
 <div class="container"> <!-- Contenedor principal -->
     <!-- Carousel -->
@@ -84,7 +86,7 @@
         </div>
     </div>
 
-    <!-- include file="layout/footer.jsp"-->
+    <%@ include file="layout/footer.jsp" %>
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
