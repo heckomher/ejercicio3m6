@@ -1,8 +1,10 @@
-package DAO;
+package dao;
+import modelos.Capacitacion;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class CapacitacionDao implements ICapacitacionDao {
+class CapacitacionDao implements ICapacitacionDao {
 
     // Lista para almacenar las capacitaciones (simulación de una base de datos)
     private List<Capacitacion> capacitaciones = new ArrayList<>();
@@ -15,8 +17,7 @@ public class CapacitacionDao implements ICapacitacionDao {
 
     @Override
     public boolean crearCapacitacion(Capacitacion capacitacion) {
-        // Simulamos la creación de una capacitación en una base de datos o algún otro sistema de almacenamiento
-        // Agregamos la capacitación a la lista (simulación)
-        return capacitaciones.add(capacitacion);
-    }
-}
+        if (capacitaciones.contains(capacitacion)) return false;
+        else{ return capacitaciones.add(capacitacion); }
+    }}
+
