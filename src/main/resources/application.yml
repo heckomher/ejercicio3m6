@@ -3,3 +3,8 @@ spring:
     view:
       prefix: /WEB-INF/vistas/
       suffix: .jsp
+  http:
+    servlet:
+      enable: true
+      force: true
+      charset: UTF-8
