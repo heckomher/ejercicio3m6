@@ -21,6 +21,7 @@
 
 <%@ include file="layout/header.jsp" %>
 
+
 <div class="container">
 
     <div class="container">
@@ -84,9 +85,9 @@
     </div>
 
 
-    <%@ include file="layout/footer.jsp" %>
 
 
+    <%@include file="layout/footer.jsp" %>
 
 </div>
 

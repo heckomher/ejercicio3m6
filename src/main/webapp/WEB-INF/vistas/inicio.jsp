@@ -1,4 +1,5 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -29,8 +30,7 @@
 
 <body>
 
-<%@ include file="layout/header.jsp" %>
-
+<%@include file="layout/header.jsp" %>
 
 <div class="container"> <!-- Contenedor principal -->
     <!-- Carousel -->
@@ -45,21 +45,21 @@
         <!-- Slides -->
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="${pageContext.request.contextPath}/images/imagen-1.jpg" alt="Capacitación 1">
+                <img src="${pageContext.request.contextPath}/imagenes/imagen-1.jpg" alt="Capacitación 1">
                 <div class="carousel-caption">
                     <h3>Capacitación en Prevención de Riesgos</h3>
                     <p>Enfocada en la industria minera</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="${pageContext.request.contextPath}/images/imagen-2.jpg" alt="Capacitación 2">
+                <img src="${pageContext.request.contextPath}/imagenes/imagen-2.jpg" alt="Capacitación 2">
                 <div class="carousel-caption">
                     <h3>Capacitación Especializada</h3>
                     <p>Asegurando un ambiente de trabajo seguro</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="${pageContext.request.contextPath}/images/imagen-3.jpg" alt="Capacitación 3">
+                <img src="${pageContext.request.contextPath}/imagenes/imagen-3.jpg" alt="Capacitación 3">
                 <div class="carousel-caption">
                     <h3>Prevención de Riesgos en Minería</h3>
                     <p>Conoce nuestras soluciones para tu empresa</p>
@@ -86,7 +86,7 @@
         </div>
     </div>
 
-    <%@ include file="layout/footer.jsp" %>
+    <%@include file="layout/footer.jsp" %>
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

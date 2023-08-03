@@ -5,8 +5,8 @@
   Time: 22:01
   To change this template use File | Settings | File Templates.
 --%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<meta charset="UTF-8">
 <html>
 <head>
     <title>Título de tu página</title>
@@ -16,7 +16,7 @@
         .btn {
             background-color: #007bff;
             border: none;
-            color: #ffffff;
+            color: white;
             padding: 10px 20px;
             text-align: center;
             text-decoration: none;

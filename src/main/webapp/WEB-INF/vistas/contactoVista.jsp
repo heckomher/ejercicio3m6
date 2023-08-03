@@ -22,7 +22,6 @@
 <%@include file="layout/header.jsp" %>
 
 
-
 <div class="container">
 
     <section>
