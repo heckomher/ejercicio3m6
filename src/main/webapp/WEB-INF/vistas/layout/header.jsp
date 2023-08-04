@@ -18,14 +18,14 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="inicio">Inicio</a>
+                            <a class="nav-link" aria-current="page" href="/">Inicio</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Capacitaci&oacute;n
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="listar_capacitacion">Listado Capacitaci&oacute;n</a></li>
+                                <li><a class="dropdown-item" href="capacitacion">Listado Capacitaci&oacute;n</a></li>
                                 <li><a class="dropdown-item" href="crear_capacitacion">Crear Capacitaci&oacute;n</a></li>
                             </ul>
                         </li>

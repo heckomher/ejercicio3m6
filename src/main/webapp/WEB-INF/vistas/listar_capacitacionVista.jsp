@@ -28,47 +28,50 @@
     <br/>
     <h3>Lista de Capacitaciones</h3>
 
-    <table id="table" class="table table-striped table-responsive" style="width:100%">
-        <thead>
-        <tr>
-            <th>N° Capacit.</th>
-            <th>Nombre</th>
-            <th>RUT Cliente</th>
-            <th>Día de la semana</th>
-            <th>Hora</th>
-            <th>Duración</th>
-            <th>Lugar</th>
-            <th>Cant. Asistentes</th>
-        </tr>
-        </thead>
-        <tbody>
+    <div class="table-responsive">
 
-        <%
+        <table id="table" class="table table-striped" style="width:100%">
+            <thead>
+            <tr>
+                <th>N° Capacit.</th>
+                <th>Nombre</th>
+                <th>RUT Cliente</th>
+                <th>Día de la semana</th>
+                <th>Hora</th>
+                <th>Duración</th>
+                <th>Lugar</th>
+                <th>Cant. Asistentes</th>
+            </tr>
+            </thead>
+            <tbody>
 
-            List<Capacitacion> capacitaciones = (ArrayList<Capacitacion>)request.getAttribute("lista");
+            <%
 
-            for(Capacitacion cap : capacitaciones)
-            {
-        %>
-        <tr>
-            <td><%= cap.getNumCapacitacion()  %></td>
-            <td><%= cap.getNombre()  %></td>
-            <td><%= cap.getRutCliente()%></td>
-            <td><%= cap.getDiaSemana()%></td>
-            <td><%= cap.getHora()%></td>
-            <td><%= cap.getDuracion()%></td>
-            <td><%= cap.getLugar()%></td>
-            <td><%= cap.getCantAsistentes()%></td>
+                List<Capacitacion> capacitaciones = (ArrayList<Capacitacion>)request.getAttribute("lista");
 
-        </tr>
+                for(Capacitacion cap : capacitaciones)
+                {
+            %>
+            <tr>
+                <td><%= cap.getNumCapacitacion()  %></td>
+                <td><%= cap.getNombre()  %></td>
+                <td><%= cap.getRutCliente()%></td>
+                <td><%= cap.getDiaSemana()%></td>
+                <td><%= cap.getHora()%></td>
+                <td><%= cap.getDuracion()%></td>
+                <td><%= cap.getLugar()%></td>
+                <td><%= cap.getCantAsistentes()%></td>
 
-        <%
-            }
+            </tr>
 
-        %>
+            <%
+                }
 
-        </tbody>
-    </table>
+            %>
+
+            </tbody>
+        </table>
+    </div>
 
 
 </div>

@@ -33,20 +33,20 @@
 
         <form action="crear-capacitacion" id="formulario" class="needs-validation" method="post">
 
-            <div class="mb-3 col-3">
+            <div class="mb-3 col-12 col-md-4">
                 <label for="nombre" class="form-label">Nombre</label>
                 <input type="text" class="form-control" id="nombre" name="nombre" required>
             </div>
-            <div class="mb-3 col-3">
+            <div class="mb-3 col-12 col-md-4">
                 <label for="detalle" class="form-label">Detalle</label>
                 <textarea rows="4" class="form-control" id="detalle" name="detalle" ></textarea>
             </div>
-            <div class="mb-3 col-3">
+            <div class="mb-3 col-12 col-md-4">
                 <label for="rutCliente" class="form-label">RUT Cliente</label>
                 <input type="text" class="form-control" id="rutCliente" value="12.345.678-9" name="rutCliente" required>
                 <div class="invalid-feedback">Ingrese un RUT válido con formato 12.345.678-9</div>
             </div>
-            <div class="mb-3 col-3">
+            <div class="mb-3 col-12 col-md-4">
                 <label for="diaSemana" class="form-label">Día de la Semana</label>
                 <select id="diaSemana" class="form-control" name="diaSemana" value="Lunes" required>
                     <option value="Lunes">Lunes</option>
@@ -56,20 +56,20 @@
                     <option value="Viernes">Viernes</option>
                 </select>
             </div>
-            <div class="mb-3 col-3">
+            <div class="mb-3 col-12 col-md-4">
                 <label for="hora" class="form-label">Hora</label>
                 <input type="text" class="form-control" id="hora" value="08:00" name="hora" required>
                 <div class="invalid-feedback">Ingrese una hora válida, ejemplo: 21:30</div>
             </div>
-            <div class="mb-3 col-3">
+            <div class="mb-3 col-12 col-md-4">
                 <label for="lugar" class="form-label">Lugar</label>
                 <input type="text" class="form-control" id="lugar" name="lugar" required>
             </div>
-            <div class="mb-3 col-3">
+            <div class="mb-3 col-12 col-md-4">
                 <label for="duracion" class="form-label">Duración</label>
                 <input type="text" class="form-control" id="duracion" name="duracion" required>
             </div>
-            <div class="mb-3 col-3">
+            <div class="mb-3 col-12 col-md-4">
                 <label for="cantAsistentes" class="form-label">Cantidad de Asistentes</label>
                 <input type="number" class="form-control" id="cantAsistentes" name="cantAsistentes" required>
             </div>
