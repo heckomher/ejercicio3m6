@@ -8,7 +8,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<meta charset="UTF-8">
 <html>
 <head>
     <meta charset="UTF-8">
@@ -31,7 +30,7 @@
         <br/>
 
 
-        <form action="crear-capacitacion" id="formulario" class="needs-validation" method="post">
+        <form action="Capacitacion" id="formulario"  method="post">
 
             <div class="mb-3 col-12 col-md-4">
                 <label for="nombre" class="form-label">Nombre</label>
@@ -73,7 +72,7 @@
                 <label for="cantAsistentes" class="form-label">Cantidad de Asistentes</label>
                 <input type="number" class="form-control" id="cantAsistentes" name="cantAsistentes" required>
             </div>
-            <button type="submit" id="submit" class="btn btn-primary btn-sm disabled">Crear</button>
+            <button type="submit" id="submit" class="btn btn-primary btn-sm">Crear</button>
         </form>
 
         <br/>
@@ -100,9 +99,8 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
         integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
         crossorigin="anonymous"></script>
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
-<script type="text/javascript" src="${pageContext.request.contextPath}/scripts/validaRUT.js"></script>
-<script type="text/javascript" src="${pageContext.request.contextPath}/scripts/validaCapacitacion.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
+
 </body>
 
 </html>

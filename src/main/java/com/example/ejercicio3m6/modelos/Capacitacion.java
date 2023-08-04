@@ -20,4 +20,6 @@ public class Capacitacion {
     private int cantAsistentes;
 
 
+
+
 }
