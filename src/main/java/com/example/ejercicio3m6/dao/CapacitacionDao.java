@@ -29,7 +29,11 @@ public class CapacitacionDao implements ICapacitacionDAO {
     @Override
     public boolean crearCapacitacion(Capacitacion capacitacion) {
         if (capacitaciones.contains(capacitacion)) return false;
-        else{ return capacitaciones.add(capacitacion); }
-    }}
+        else{
+            System.out.println(capacitacion.toString());
+            return capacitaciones.add(capacitacion);
+        }
+    }
+}
 
 

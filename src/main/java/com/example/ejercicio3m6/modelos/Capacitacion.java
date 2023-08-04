@@ -1,14 +1,12 @@
 package com.example.ejercicio3m6.modelos;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @AllArgsConstructor
 @NoArgsConstructor
 @Setter
 @Getter
+@ToString
 public class Capacitacion {
 
     private int numCapacitacion;
