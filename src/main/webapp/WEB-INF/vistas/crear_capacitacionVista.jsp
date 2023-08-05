@@ -30,7 +30,7 @@
         <br/>
 
 
-        <form action="Capacitacion" id="formulario"  method="post">
+        <form action="capacitacion" id="formulario"  method="post">
 
             <div class="mb-3 col-12 col-md-4">
                 <label for="nombre" class="form-label">Nombre</label>
