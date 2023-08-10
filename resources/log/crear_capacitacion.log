@@ -17,3 +17,167 @@
 2023-08-04 20:36:30.293 [RMI TCP Connection(2)-192.168.100.8] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2023-08-04 20:36:30.293 [RMI TCP Connection(2)-192.168.100.8] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2023-08-04 20:36:30.294 [RMI TCP Connection(2)-192.168.100.8] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-08-05 11:12:36.004 [restartedMain] INFO  c.e.e.Ejercicio3m6Application - Starting Ejercicio3m6Application using Java 20.0.2 with PID 77036 (/Users/hecko/IdeaProjects/ejercicio3m6/target/classes started by hecko in /Users/hecko/IdeaProjects/ejercicio3m6)
+2023-08-05 11:12:36.009 [restartedMain] INFO  c.e.e.Ejercicio3m6Application - No active profile set, falling back to 1 default profile: "default"
+2023-08-05 11:12:36.128 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-05 11:12:36.128 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-05 11:12:39.128 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-08-05 11:12:39.148 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-05 11:12:39.151 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-08-05 11:12:39.152 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-05 11:12:39.497 [restartedMain] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-08-05 11:12:39.506 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-08-05 11:12:39.507 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3378 ms
+2023-08-05 11:12:41.126 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-08-05 11:12:41.135 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-05 11:12:41.207 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-08-05 11:12:41.266 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-05 11:12:41.294 [restartedMain] INFO  c.e.e.Ejercicio3m6Application - Started Ejercicio3m6Application in 6.234 seconds (process running for 8.488)
+2023-08-05 11:12:41.741 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-05 11:12:41.742 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-08-05 11:12:41.743 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-08-05 11:13:33.935 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 7 class path changes (0 additions, 0 deletions, 7 modifications)
+2023-08-05 11:13:33.959 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2023-08-05 11:13:33.959 [Thread-5] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-08-05 11:13:33.961 [Thread-5] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-08-05 11:13:33.972 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2023-08-05 11:13:33.979 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2023-08-05 11:13:34.195 [restartedMain] INFO  c.e.e.Ejercicio3m6Application - Starting Ejercicio3m6Application using Java 20.0.2 with PID 77036 (/Users/hecko/IdeaProjects/ejercicio3m6/target/classes started by hecko in /Users/hecko/IdeaProjects/ejercicio3m6)
+2023-08-05 11:13:34.196 [restartedMain] INFO  c.e.e.Ejercicio3m6Application - No active profile set, falling back to 1 default profile: "default"
+2023-08-05 11:13:35.444 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-08-05 11:13:35.445 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-05 11:13:35.446 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-08-05 11:13:35.446 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-05 11:13:35.623 [restartedMain] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-08-05 11:13:35.625 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-08-05 11:13:35.626 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1424 ms
+2023-08-05 11:13:35.850 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-08-05 11:13:35.853 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-05 11:13:35.866 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-08-05 11:13:35.870 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-05 11:13:35.880 [restartedMain] INFO  c.e.e.Ejercicio3m6Application - Started Ejercicio3m6Application in 1.767 seconds (process running for 63.074)
+2023-08-05 11:13:35.883 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2023-08-05 11:13:39.947 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-05 11:13:39.948 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-08-05 11:13:39.948 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2023-08-05 11:13:51.569 [http-nio-8080-exec-5] INFO  c.example.ejercicio3m6.controladores - CapacitacionControlador : crear capacitacion formulario
+2023-08-05 11:14:32.536 [http-nio-8080-exec-6] INFO  c.example.ejercicio3m6.controladores - CapacitacionControlador : crear capacitacion POST
+2023-08-05 11:14:32.546 [http-nio-8080-exec-6] INFO  c.example.ejercicio3m6.controladores - CapacitacionControlador : Se ha guardado la capacitación
+2023-08-05 11:21:35.100 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 8 class path changes (0 additions, 0 deletions, 8 modifications)
+2023-08-05 11:21:35.151 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2023-08-05 11:21:35.151 [Thread-7] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-08-05 11:21:35.155 [Thread-7] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-08-05 11:21:35.195 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2023-08-05 11:21:35.204 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2023-08-05 11:21:35.568 [restartedMain] INFO  c.e.e.Ejercicio3m6Application - Starting Ejercicio3m6Application using Java 20.0.2 with PID 77036 (/Users/hecko/IdeaProjects/ejercicio3m6/target/classes started by hecko in /Users/hecko/IdeaProjects/ejercicio3m6)
+2023-08-05 11:21:35.568 [restartedMain] INFO  c.e.e.Ejercicio3m6Application - No active profile set, falling back to 1 default profile: "default"
+2023-08-05 11:21:36.751 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-08-05 11:21:36.752 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-05 11:21:36.753 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-08-05 11:21:36.753 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-05 11:21:36.917 [restartedMain] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-08-05 11:21:36.919 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-08-05 11:21:36.919 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1343 ms
+2023-08-05 11:21:37.294 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-08-05 11:21:37.301 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-05 11:21:37.319 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-08-05 11:21:37.322 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-05 11:21:37.334 [restartedMain] INFO  c.e.e.Ejercicio3m6Application - Started Ejercicio3m6Application in 1.833 seconds (process running for 544.454)
+2023-08-05 11:21:37.336 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2023-08-05 11:21:41.450 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.ejercicio3m6.Ejercicio3m6ApplicationTests]: Ejercicio3m6ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-08-05 11:21:41.821 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.ejercicio3m6.Ejercicio3m6Application for test class com.example.ejercicio3m6.Ejercicio3m6ApplicationTests
+2023-08-05 11:21:42.870 [main] INFO  c.e.e.Ejercicio3m6ApplicationTests - Starting Ejercicio3m6ApplicationTests using Java 20.0.2 with PID 77088 (started by hecko in /Users/hecko/IdeaProjects/ejercicio3m6)
+2023-08-05 11:21:42.872 [main] INFO  c.e.e.Ejercicio3m6ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-08-05 11:21:46.686 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-05 11:21:46.795 [main] INFO  c.e.e.Ejercicio3m6ApplicationTests - Started Ejercicio3m6ApplicationTests in 4.543 seconds (process running for 7.087)
+2023-08-05 11:25:05.324 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 7 class path changes (0 additions, 0 deletions, 7 modifications)
+2023-08-05 11:25:05.334 [Thread-11] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2023-08-05 11:25:05.334 [Thread-11] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-08-05 11:25:05.342 [Thread-11] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2023-08-05 11:25:05.344 [Thread-11] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2023-08-05 11:25:05.492 [restartedMain] INFO  c.e.e.Ejercicio3m6Application - Starting Ejercicio3m6Application using Java 20.0.2 with PID 77036 (/Users/hecko/IdeaProjects/ejercicio3m6/target/classes started by hecko in /Users/hecko/IdeaProjects/ejercicio3m6)
+2023-08-05 11:25:05.493 [restartedMain] INFO  c.e.e.Ejercicio3m6Application - No active profile set, falling back to 1 default profile: "default"
+2023-08-05 11:25:06.107 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-08-05 11:25:06.108 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-05 11:25:06.108 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-08-05 11:25:06.108 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-05 11:25:06.271 [restartedMain] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-08-05 11:25:06.273 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-08-05 11:25:06.273 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 775 ms
+2023-08-05 11:25:06.566 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-08-05 11:25:06.570 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-05 11:25:06.584 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-08-05 11:25:06.587 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-05 11:25:06.596 [restartedMain] INFO  c.e.e.Ejercicio3m6Application - Started Ejercicio3m6Application in 1.141 seconds (process running for 753.712)
+2023-08-05 11:25:06.599 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2023-08-05 11:42:50.447 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 7 class path changes (0 additions, 0 deletions, 7 modifications)
+2023-08-05 11:42:50.494 [Thread-15] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2023-08-05 11:42:50.494 [Thread-15] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-08-05 11:42:50.517 [Thread-15] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2023-08-05 11:42:50.549 [Thread-15] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2023-08-05 11:42:51.034 [restartedMain] INFO  c.e.e.Ejercicio3m6Application - Starting Ejercicio3m6Application using Java 20.0.2 with PID 77036 (/Users/hecko/IdeaProjects/ejercicio3m6/target/classes started by hecko in /Users/hecko/IdeaProjects/ejercicio3m6)
+2023-08-05 11:42:51.039 [restartedMain] INFO  c.e.e.Ejercicio3m6Application - No active profile set, falling back to 1 default profile: "default"
+2023-08-05 11:42:51.905 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-08-05 11:42:51.906 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-05 11:42:51.907 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-08-05 11:42:51.907 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-05 11:42:52.065 [restartedMain] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-08-05 11:42:52.069 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-08-05 11:42:52.069 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1027 ms
+2023-08-05 11:42:52.421 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-08-05 11:42:52.433 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-05 11:42:52.474 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-08-05 11:42:52.479 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-05 11:42:52.494 [restartedMain] INFO  c.e.e.Ejercicio3m6Application - Started Ejercicio3m6Application in 1.577 seconds (process running for 1819.574)
+2023-08-05 11:42:52.498 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2023-08-06 21:10:41.370 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 7 class path changes (0 additions, 0 deletions, 7 modifications)
+2023-08-06 21:10:41.420 [Thread-19] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2023-08-06 21:10:41.420 [Thread-19] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-08-06 21:10:41.453 [Thread-19] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2023-08-06 21:10:41.460 [Thread-19] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2023-08-06 21:10:41.921 [restartedMain] INFO  c.e.e.Ejercicio3m6Application - Starting Ejercicio3m6Application using Java 20.0.2 with PID 77036 (/Users/hecko/IdeaProjects/ejercicio3m6/target/classes started by hecko in /Users/hecko/IdeaProjects/ejercicio3m6)
+2023-08-06 21:10:41.921 [restartedMain] INFO  c.e.e.Ejercicio3m6Application - No active profile set, falling back to 1 default profile: "default"
+2023-08-06 21:10:43.023 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-08-06 21:10:43.024 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-06 21:10:43.024 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-08-06 21:10:43.024 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-06 21:10:43.140 [restartedMain] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-08-06 21:10:43.142 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-08-06 21:10:43.142 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1215 ms
+2023-08-06 21:10:43.385 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-08-06 21:10:43.390 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-06 21:10:43.407 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-08-06 21:10:43.411 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-06 21:10:43.422 [restartedMain] INFO  c.e.e.Ejercicio3m6Application - Started Ejercicio3m6Application in 1.558 seconds (process running for 5497.671)
+2023-08-06 21:10:43.425 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2023-08-06 21:16:32.294 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.ejercicio3m6.Ejercicio3m6ApplicationTests]: Ejercicio3m6ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-08-06 21:16:32.659 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.ejercicio3m6.Ejercicio3m6Application for test class com.example.ejercicio3m6.Ejercicio3m6ApplicationTests
+2023-08-06 21:16:33.859 [main] INFO  c.e.e.Ejercicio3m6ApplicationTests - Starting Ejercicio3m6ApplicationTests using Java 20.0.2 with PID 77968 (started by hecko in /Users/hecko/IdeaProjects/ejercicio3m6)
+2023-08-06 21:16:33.860 [main] INFO  c.e.e.Ejercicio3m6ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-08-06 21:16:38.330 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-06 21:16:38.429 [main] INFO  c.e.e.Ejercicio3m6ApplicationTests - Started Ejercicio3m6ApplicationTests in 5.288 seconds (process running for 9.221)
+2023-08-06 21:17:02.957 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.ejercicio3m6.Ejercicio3m6ApplicationTests]: Ejercicio3m6ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-08-06 21:17:03.228 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.ejercicio3m6.Ejercicio3m6Application for test class com.example.ejercicio3m6.Ejercicio3m6ApplicationTests
+2023-08-06 21:17:04.388 [main] INFO  c.e.e.Ejercicio3m6ApplicationTests - Starting Ejercicio3m6ApplicationTests using Java 20.0.2 with PID 77993 (started by hecko in /Users/hecko/IdeaProjects/ejercicio3m6)
+2023-08-06 21:17:04.390 [main] INFO  c.e.e.Ejercicio3m6ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-08-06 21:17:08.434 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-06 21:17:08.526 [main] INFO  c.e.e.Ejercicio3m6ApplicationTests - Started Ejercicio3m6ApplicationTests in 4.898 seconds (process running for 7.78)
+2023-08-06 21:23:49.119 [restartedMain] INFO  c.e.e.Ejercicio3m6Application - Starting Ejercicio3m6Application using Java 20.0.2 with PID 78068 (/Users/hecko/IdeaProjects/ejercicio3m6/target/classes started by hecko in /Users/hecko/IdeaProjects/ejercicio3m6)
+2023-08-06 21:23:49.126 [restartedMain] INFO  c.e.e.Ejercicio3m6Application - No active profile set, falling back to 1 default profile: "default"
+2023-08-06 21:23:49.414 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-06 21:23:49.414 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-06 21:23:53.840 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-08-06 21:23:53.862 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-06 21:23:53.867 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-08-06 21:23:53.867 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-06 21:23:54.224 [restartedMain] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-08-06 21:23:54.240 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-08-06 21:23:54.241 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4824 ms
+2023-08-06 21:23:55.795 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-08-06 21:23:55.818 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-06 21:23:55.907 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-08-06 21:23:55.965 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-06 21:23:55.999 [restartedMain] INFO  c.e.e.Ejercicio3m6Application - Started Ejercicio3m6Application in 8.469 seconds (process running for 11.918)
+2023-08-07 10:04:18.550 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-07 10:04:18.554 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-08-07 10:04:18.580 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 24 ms
