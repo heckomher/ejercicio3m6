@@ -3,18 +3,21 @@ package com.example.ejercicio3m6.controladores;
 import com.example.ejercicio3m6.modelos.Capacitacion;
 
 import com.example.ejercicio3m6.dao.CapacitacionDao;
+import com.example.ejercicio3m6.servicios.ConvertirHoraServicio;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import java.util.logging.*;
 
-import java.text.Normalizer;
+import java.sql.Time;
+import java.util.logging.*;
 import java.util.List;
 
-@Controller
 
+@Controller
 public class CapacitacionControlador {
 
     private final static Logger LOG_MONITOREO = Logger.getLogger("com.example.ejercicio3m6.controladores");
@@ -25,9 +28,21 @@ public class CapacitacionControlador {
         return "crear_capacitacionVista";
     }
 
+    @Autowired
+    private ConvertirHoraServicio convertirHoraServicio;
+
     @PostMapping("/crearCapacitacion")
-    public String crearCapacitacion(@RequestParam("nombre") String nombre, @RequestParam("detalle") String detalle, @RequestParam("rutCliente") String rutCliente, @RequestParam("diaSemana") String diaSemana, @RequestParam("hora") String hora, @RequestParam("lugar") String lugar, @RequestParam("duracion") String duracion, @RequestParam("cantAsistentes") int cantAsistentes) {
+    public String crearCapacitacion(@RequestParam("nombre") String nombre,
+                                    @RequestParam("detalle") String detalle,
+                                    @RequestParam("rutCliente") String rutCliente,
+                                    @RequestParam("diaSemana") String diaSemana,
+                                    @RequestParam("hora") String horaCadena,
+                                    @RequestParam("lugar") String lugar,
+                                    @RequestParam("duracion") String duracionCadena,
+                                    @RequestParam("cantAsistentes") Integer cantAsistentes) {
         // Crea un objeto Capacitacion con los datos recibidos
+        Time hora = convertirHoraServicio.convertirCadenaAHora(horaCadena);
+        Time duracion = convertirHoraServicio.convertirCadenaAHora(duracionCadena);
 
         try {
             LOG_MONITOREO.log(Level.INFO, "CapacitacionControlador : crear capacitacion POST");
@@ -66,11 +81,13 @@ public class CapacitacionControlador {
                                       @RequestParam ("detalle") String detalle,
                                       @RequestParam ("rutCliente") String rut,
                                       @RequestParam ("diaSemana") String dia,
-                                      @RequestParam ("hora") String hora,
+                                      @RequestParam ("hora") String horaCadenaa,
                                       @RequestParam ("lugar") String lugar,
-                                      @RequestParam ("duracion") String duracion,
-                                      @RequestParam ("cantAsistentes") int asistentes,
+                                      @RequestParam ("duracion") String duracionCadena,
+                                      @RequestParam ("cantAsistentes") Integer asistentes,
                                       Model m) {
+        Time hora = convertirHoraServicio.convertirCadenaAHora(horaCadenaa);
+        Time duracion = convertirHoraServicio.convertirCadenaAHora(duracionCadena);
 
         try {
             LOG_MONITOREO.log(Level.INFO, "CapacitacionControlador : crear capacitacion POST");
